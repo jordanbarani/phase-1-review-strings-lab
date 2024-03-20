@@ -198,7 +198,7 @@ Let's rewrite our `welcomeMessage` to use a template literal:
 ```js
 const currentUser = 'Grace Hopper';
 
-const welcomeMessage = `Welcome to Flatbook, ${currentUser}`;
+const welcomeMessage = 'Welcome to Flatbook, ';
 ```
 
 The first three tests are still passing, but the fourth wants our
